@@ -14,19 +14,37 @@ struct CardView: View {
             VStack {
                 // MARK:  - Title
                 
-                Text("Hiking")
-                    .fontWeight(.black)
-                    .font(.system(size: 50))
-                    .foregroundStyle(
-                        LinearGradient(
-                            colors: [
-                                .customGrayLight,
-                                .customGrayMedium
-                            ],
-                            startPoint: .top,
-                            endPoint: .bottom
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("Hiking")
+                            .fontWeight(.black)
+                            .font(.system(size: 50))
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [
+                                        .customGrayLight,
+                                        .customGrayMedium
+                                    ],
+                                    startPoint: .top,
+                                    endPoint: .bottom
+                                )
                         )
-                    )
+                        Spacer()
+                        
+                        Button {
+                            // Action: show as sheet
+                            print("Button was pressed")
+                        } label: {
+                            CustomButton()
+                        }
+                    }
+                    
+                    Text("Fun and enjoyable outdoor activity for friends and families.")
+                        .multilineTextAlignment(.leading)
+                        .italic()
+                        .foregroundColor(.customGrayMedium)
+                }
+                .padding(.horizontal, 30)
                 
                 // MARK: - Main content
                 ZStack {
