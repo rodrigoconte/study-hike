@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("image-1")
-            .resizable() // Permite que o tamanho da imagem seja alterado
-            .scaledToFit() // Ajusta a imagem para caber na parent view
+        CardView()
     }
 }
 

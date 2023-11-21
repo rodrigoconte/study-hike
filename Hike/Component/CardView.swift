@@ -11,22 +11,46 @@ struct CardView: View {
     var body: some View {
         ZStack {
             CustomBackgroundView()
-            Circle()
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            Color.customIndigoMedium,
-                            Color.customSalmonLight
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
+            VStack {
+                // MARK:  - Title
+                
+                Text("Hiking")
+                    .fontWeight(.black)
+                    .font(.system(size: 50))
+                    .foregroundStyle(
+                        LinearGradient(
+                            colors: [
+                                .customGrayLight,
+                                .customGrayMedium
+                            ],
+                            startPoint: .top,
+                            endPoint: .bottom
+                        )
                     )
-                ).frame(width: 256, height: 256)
-            
-            Image("image-1")
-                .resizable() // Permite que o tamanho da imagem seja alterado
-                .scaledToFit() // Ajusta a imagem para caber na parent view
-        }.padding()
+                
+                // MARK: - Main content
+                ZStack {
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                colors: [
+                                    Color.customIndigoMedium,
+                                    Color.customSalmonLight
+                                ],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        ).frame(width: 256, height: 256)
+                    
+                    Image("image-1")
+                        .resizable() // Permite que o tamanho da imagem seja alterado
+                        .scaledToFit() // Ajusta a imagem para caber na parent view
+                }
+                
+                // MARK: - Footer
+            }
+        } //: CARD
+        .frame(width: 320, height: 570)
     }
 }
 
