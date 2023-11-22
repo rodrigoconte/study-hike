@@ -15,6 +15,7 @@
 		D596B9982B098BA600A5C24D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B9972B098BA600A5C24D /* CustomBackgroundView.swift */; };
 		D596B99B2B098DEC00A5C24D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B99A2B098DEC00A5C24D /* ColorExtension.swift */; };
 		D596B99D2B0D3E0700A5C24D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B99C2B0D3E0700A5C24D /* CustomButton.swift */; };
+		D596B99F2B0E574600A5C24D /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B99E2B0E574600A5C24D /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D596B9972B098BA600A5C24D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		D596B99A2B098DEC00A5C24D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		D596B99C2B0D3E0700A5C24D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D596B99E2B0E574600A5C24D /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				D596B99A2B098DEC00A5C24D /* ColorExtension.swift */,
+				D596B99E2B0E574600A5C24D /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				D596B9952B0989AC00A5C24D /* CardView.swift in Sources */,
 				D596B99D2B0D3E0700A5C24D /* CustomButton.swift in Sources */,
 				D596B9872B09800A00A5C24D /* HikeApp.swift in Sources */,
+				D596B99F2B0E574600A5C24D /* GradientButtonStyle.swift in Sources */,
 				D596B9982B098BA600A5C24D /* CustomBackgroundView.swift in Sources */,
 				D596B99B2B098DEC00A5C24D /* ColorExtension.swift in Sources */,
 			);

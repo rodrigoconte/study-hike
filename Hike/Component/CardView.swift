@@ -66,6 +66,25 @@ struct CardView: View {
                 }
                 
                 // MARK: - Footer
+                
+                Button {
+                    // ACTION: Generate a random number
+                    print("The button was pressed")
+                } label: {
+                    Text("Explore more")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            LinearGradient(
+                                colors: [
+                                    .customGreenLight,
+                                    .customGreenMedium
+                                ],
+                                startPoint: .top,
+                                endPoint: .bottom))
+                        .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
+                }
+                .buttonStyle(GradientButton())
             }
         } //: CARD
         .frame(width: 320, height: 570)
