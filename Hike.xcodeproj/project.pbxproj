@@ -19,6 +19,7 @@
 		D596B9A12B0E601F00A5C24D /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B9A02B0E601F00A5C24D /* CustomCircleView.swift */; };
 		D596B9A32B0E764600A5C24D /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B9A22B0E764500A5C24D /* MotionAnimationView.swift */; };
 		D596B9A62B1017A200A5C24D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B9A52B1017A200A5C24D /* SettingsView.swift */; };
+		D596B9A82B1124CD00A5C24D /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D596B9A72B1124CD00A5C24D /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D596B9A02B0E601F00A5C24D /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		D596B9A22B0E764500A5C24D /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		D596B9A52B1017A200A5C24D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D596B9A72B1124CD00A5C24D /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				D596B99C2B0D3E0700A5C24D /* CustomButton.swift */,
 				D596B9A02B0E601F00A5C24D /* CustomCircleView.swift */,
 				D596B9A22B0E764500A5C24D /* MotionAnimationView.swift */,
+				D596B9A72B1124CD00A5C24D /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				D596B9892B09800A00A5C24D /* ContentView.swift in Sources */,
 				D596B9A12B0E601F00A5C24D /* CustomCircleView.swift in Sources */,
+				D596B9A82B1124CD00A5C24D /* CustomListRowView.swift in Sources */,
 				D596B9952B0989AC00A5C24D /* CardView.swift in Sources */,
 				D596B99D2B0D3E0700A5C24D /* CustomButton.swift in Sources */,
 				D596B9872B09800A00A5C24D /* HikeApp.swift in Sources */,

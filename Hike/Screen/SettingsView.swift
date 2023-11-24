@@ -12,8 +12,6 @@ struct SettingsView: View {
         List {
             // MARK: - Section Header
             Section {
-                
-                
                 HStack {
                     Spacer()
                     Image(systemName: "laurel.leading")
@@ -66,6 +64,64 @@ struct SettingsView: View {
             // MARK: - Section icons
             
             // MARK: - Section about
+            Section(header: Text("About the app"),
+                    footer: HStack {
+                        Spacer()
+                        Text("Copyright All right reserved")
+                        Spacer()
+            }) {
+                CustomListRowView(
+                    rowLabel: "Application",
+                    rowIcon: "apps.iphone",
+                    rowContent: "Hike",
+                    rowTintColor: .blue
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Compatibility",
+                    rowIcon: "info.circle",
+                    rowContent: "iOS",
+                    rowTintColor: .red
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Technology",
+                    rowIcon: "swift",
+                    rowContent: "Swift",
+                    rowTintColor: .orange
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Version",
+                    rowIcon: "gear",
+                    rowContent: "1.0",
+                    rowTintColor: .purple
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Developer",
+                    rowIcon: "ellipsis.curlybraces",
+                    rowContent: "Rodrigo Conte",
+                    rowTintColor: .mint
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Designer",
+                    rowIcon: "paintpalette",
+                    rowContent: "Aline Paiva",
+                    rowTintColor: .pink
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Linkedin",
+                    rowIcon: "link",
+                    rowTintColor: .indigo,
+                    rowLinkLabel: "Profile",
+                    rowLinkDestination: "https://www.linkedin.com/in/rodrigo-conte-oliv/"
+                    
+                )
+            }
+            
         }// LIST
     }
 }
